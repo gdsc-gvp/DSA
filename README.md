@@ -43,7 +43,7 @@ A place where you can learn and practise various data structures and Algorithms 
 
 ## Contributing  
 This repository is contribution friendly. If you'd like to add or improve any algorithm, your contribution is welcome!  
-Don't forget to follow [Contribution Guidelines](contributing.md) 😃  
+Don't forget to follow [Contribution Guidelines](CONTRIBUTING.md) 😃  
 
 ## Used Languages
 * C
