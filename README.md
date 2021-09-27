@@ -1,4 +1,4 @@
-![DSA](https://socialify.git.ci/gdsc-gvp/DSA/image?forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
+![DSA](https://socialify.git.ci/gdsc-gvp/DSA/image?font=Bitter&forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
 
 
 [![GitHub issues](https://img.shields.io/github/issues/gdsc-gvp/DSA.svg)](https://github.com/gdsc-gvp/DSA/issues)
