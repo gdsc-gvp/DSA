@@ -15,7 +15,7 @@
 <!-- [![All Contributors](https://img.shields.io/badge/all_contributors-69-orange.svg?style=flat-square)](#contributors-) -->
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-## DSA
+## Data Structures and Algorithms.
 A place where you can learn and practise various data structures and Algorithms in different languages
 
 
