@@ -18,29 +18,6 @@
 ## Data Structures and Algorithms.
 A place where you can learn and practise various data structures and Algorithms in different languages
 
-
-## Steps to contribute
--  Fork the [repository](https://github.com/gdsc-gvp/DSA)
-  -  Clone the fork [repo](https://github.com/gdsc-gvp/DSA)
-      - git clone https://github.com/gdsc-gvp/DSA
-      - git clone https://github.com/<Your_Username>/DSA
-  -  Create new branch 
-     - git checkout -b (Your-Branch-Name)
-
- -  Add Scripts related to your respective issues.
-     - git add <your-contribution>
-  
-   -  Add a commit message !
-      - git commit -m "Added your message"
-  - Push changes
-    - git push origin
-  
-  - Push changes
-    -  git push -u origin <name_of_your_branch>  
-   - Create pull requests
-     - [Try to Mention the related issue for your PR]
-
-
 ## Contributing  
 This repository is contribution friendly. If you'd like to add or improve any algorithm, your contribution is welcome!  
 Don't forget to follow [Contribution Guidelines](CONTRIBUTING.md) 😃  
