@@ -16,7 +16,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## DSA
-A place where you can practice and learn various data structures . 
+A place where you can learn and practise various data structures and Algorithms in different languages
 
 
 ## Steps to contribute
