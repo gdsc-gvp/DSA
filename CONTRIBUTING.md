@@ -1,4 +1,4 @@
-# ***First time contributing? We will help you out.*** 👍
+# **First time contributing? We will help you out.** 👍
 
 ![GitHub custom open for collaboration](https://img.shields.io/badge/Open%20For-Collaboration-brightgreen?style=for-the-badge)
 
@@ -25,6 +25,52 @@ When contributing to this repository, please first discuss the change you wish t
 - Fork the Repo and create a Branch for any Issue that you are working upon.
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
+
+### For Contribution
+
+**1.** [Fork](https://github.com/gdsc-gvp/DSA) this repository.
+Click on the <a href="https://github.com/gdsc-gvp/DSA"><img src="https://img.icons8.com/ios/24/000000/code-fork.png"></a> symbol at the top right corner.
+
+**2.** Clone the forked repository.
+
+```bash
+git clone https://github.com/<your-github-username>/DSA
+```
+
+**3.** Navigate to the project directory.
+
+```bash
+cd Data-Structure-and-Algorithms
+```
+**5.** Create a new branch:
+```bash
+git checkout -b YourBranchName
+```
+
+**6.** Make changes in source code.
+
+**7.** Stage your changes and commit
+
+```bash
+git add .
+```
+```bash
+git commit -m "<your_commit_message>"
+```
+
+**8.** Push your local commits to the remote repo.
+
+```bash
+git push origin YourBranchName
+```
+
+**9.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
+
+**10.** **Congratulations!** Sit and relax, you've made your contribution to [Data-Structure-and-Algorithms](https://github.com/gdsc-gvp/DSA) project.
+
+***:trophy: After this, project Maintainers and mentors will review the changes and will merge your PR if they are found good, otherwise we will suggest the required changes.***
+
+## Style Guides for Git Commit Messages:memo:
 
 
 #### Here's a list of some good to have points, that can add more value to your contribution logs.
