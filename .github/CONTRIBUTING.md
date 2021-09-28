@@ -41,7 +41,7 @@ git clone https://github.com/<your-github-username>/DSA
 **3.** Navigate to the project directory.
 
 ```bash
-cd Data-Structure-and-Algorithms
+cd DSA
 ```
 **5.** Create a new branch:
 ```bash
@@ -95,7 +95,7 @@ For major changes, you are welcomed to open an issue  about what you would like 
 <p align = "center">
 
 <a href="https://github.com/muthuannamalai12"><img src="http://ForTheBadge.com/images/badges/built-by-developers.svg" alt="built by developers"></a>
-[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Nivedita967/Data-Structure-and-Algorithms)
+[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/gdsc-gvp/DSA)
 
 </p>
 
