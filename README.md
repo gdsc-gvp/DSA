@@ -16,7 +16,8 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Data Structures and Algorithms.
-A place where you can learn and practise various data structures and Algorithms in different languages
+A place where you can find and learn the copious number of algorithms in an efficient manner.
+This repository covers various problems of Arrays, Stacks, Queues, Trees, Graphs and different other Algorithms. A collection of solutions for Data Structure and Algorithm problems across various platforms in different languages at a single place
 
 ## Contributing  
 This repository is contribution friendly. If you'd like to add or improve any algorithm, your contribution is welcome!  
