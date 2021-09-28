@@ -20,7 +20,9 @@ A place where you can learn and practise various data structures and Algorithms 
 
 ## Contributing  
 This repository is contribution friendly. If you'd like to add or improve any algorithm, your contribution is welcome!  
-Don't forget to follow [Contribution Guidelines](CONTRIBUTING.md) 😃  
+Don't forget to follow [Contribution Guidelines](.github/CONTRIBUTING.md) 😃   
+
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 ## Used Languages
 * C
