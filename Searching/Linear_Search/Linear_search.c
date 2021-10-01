@@ -4,7 +4,7 @@ int main()
     int n,k;
     printf("enter size of the array: ");
     scanf("%d",&n);
-    printf("enter key: ");
+    printf("enter key: ");  // the element to be found
     scanf("%d",&k);
     int arr[n];
     printf("enter the elements in the array\n");
@@ -29,3 +29,8 @@ int main()
     
 return 0;
 }
+
+// Talking about its time complexity
+//Best Case - O(1)
+//Average Case - O(n/2)
+//Worst Case - O(n)
