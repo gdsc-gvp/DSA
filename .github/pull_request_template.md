@@ -25,18 +25,6 @@ Example how to mark a checkbox:-
 
 Describe how have you verified the changes made -->
 
-## Checklist:
-<!--
-Example how to mark a checkbox:-
-- [x] My code follows the code style of this project.
--->
-- [ ] My code follows the guidelines of this project.
-- [ ] I have performed a self-review of my own code.
-- [ ] I have commented my code, particularly whereever it was hard to understand.
-- [ ] I have made corresponding changes to the documentation.
-- [ ] My changes generate no new warnings.
-<!-- - [ ] I have added tests that prove my fix is effective or that my feature works.
-- [ ] Any dependent changes have been merged and published in downstream modules. -->
 
 ## Screenshots(optional)
 
