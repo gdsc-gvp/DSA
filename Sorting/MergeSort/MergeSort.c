@@ -61,7 +61,7 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    mergeSort(arr, 0, 6);
+    mergeSort(arr, 0, n);
     //Print the result
     for (int i = 0; i < n; i++)
     {
