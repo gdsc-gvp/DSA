@@ -291,7 +291,7 @@ int main()
             {
                 while(1)
                 {
-                    printf("\nEnter element or press -1 : ");
+                    printf("\nEnter element (integer only) or press -1 : ");
                     scanf("%d",&data);
                     if(data == -1)
                         break;
@@ -303,7 +303,7 @@ int main()
 
         case 2:
             {
-                printf("\nEnter element to be deleted : ");
+                printf("\nEnter element (integer only) to be deleted : ");
                 scanf("%d",&data);
                 deleteelement(root , data);
                 break;
