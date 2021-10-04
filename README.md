@@ -65,3 +65,8 @@ Don't forget to follow [Contribution Guidelines](.github/CONTRIBUTING.md) 😃
 * C++
 * Python 
 * Java
+
+## Thanks to all the contributors ❤️
+<a href = "https://github.com/gdsc-gvp/DSA/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=gdsc-gvp/DSA"/>
+</a>
