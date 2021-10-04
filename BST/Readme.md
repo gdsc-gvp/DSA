@@ -1,1 +1,1 @@
-## Binary Search TreeInsertion, Searching, Deletion and Display 
+## Binary Search Tree Insertion, Searching, Deletion and Display 
