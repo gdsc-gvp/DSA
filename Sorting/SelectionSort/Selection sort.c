@@ -5,7 +5,6 @@ void selection_sort(int arr[],int n);
 void main()
 {
   int arr[10],i,n;
-  clrscr();
   printf("Enter number of elements in array\n");
   scanf("%d",&n);
   printf("Enter the elements of the array\n");
@@ -17,7 +16,6 @@ void main()
   printf("The sorted array is\n");
   for(i=0;i<n;i++)
     printf("%d\t",arr[i]);
-   getch();
 }
 int smallest(int arr[],int k, int n)
 {
