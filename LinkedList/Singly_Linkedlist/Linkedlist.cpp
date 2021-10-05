@@ -131,27 +131,72 @@ int middleOfLinkedList(Node* head)
 
 int main()
 {
+    int choice;
+    int value, position;
+
     cout<< "Enter the linked list with -1 as terminator"<<endl;
     Node *head = takeInput_Better();
-    print(head);
-    int x;
-    cout<< "\nEnter the value to be inserted: " <<endl;
-    cin>> x;
-    int position;
-    cout<<"Enter the postition where the value to be inserted: " << endl;
-    cin>> position;
-    head = insertNode(head, x, position);
-    cout<< "Modified Linked list" <<endl;
-    print(head);
-    cout<<endl;
-    cout<< "Deleting a node from 2nd position "<<endl;
-    head = delNode(head, 2);
-    print(head);
-    cout<< endl;
-    cout<< "Length of the linked list"<<endl;
-    cout<< lengthOfLinkedList(head)<<endl;
-    cout<< "Mid value in the linked list"<<endl;
-    cout<<"\n" << middleOfLinkedList(head);
+
+
+
+    cout<< "Select your choice: \n"<<endl;
+    cout<<" 1.insert \n 2.delete \n 3.print \n 4.length \n 5.Middle of the list  \n 6.Exit"<<endl;
+    cout<< "\n\n \t Positioning starts from 0 in Linked list \n\n"<<endl;
+
+    do{
+        cout<<"\n Enter the Choice: ";
+        cin>> choice;
+
+        switch(choice)
+        {
+            case 1:
+            {
+                cout<<" Enter the value to be inserted: ";
+                cin>> value;
+                cout<< " Enter the postition: ";
+                cin>> position;
+                head = insertNode(head, value, position);
+                break;
+            }
+            case 2:
+            {
+                cout<< " Enter the position: ";
+                cin>>position;
+                head = delNode(head, position);
+                break;
+            }
+            case 3:
+            {
+                cout<<" ";
+                print(head);
+                break;
+            }
+            case 4:
+            {
+                cout<< " Length of the linked list : "<< lengthOfLinkedList(head);
+                break;
+            }
+
+            case 5:
+            {
+                cout<< " Element at the middle: "<< middleOfLinkedList(head);
+                break;
+            }
+            case 6:
+            {
+                cout<<"EXIT!"<<endl;
+                break;
+            }
+            default:
+            {
+                cout<< "\n Please Enter a Valid Choice(1/2/3/4/5/6)";
+            }
+                
+        }
+    }
+    while(choice!=6);
+    
+
     //statically creating linked list
     
     // Node n1(1);
