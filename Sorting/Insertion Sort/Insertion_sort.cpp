@@ -1,4 +1,4 @@
-/* C Program to sort an array  using Insertion Sort */
+/* Cpp Program to sort an array  using Insertion Sort */
 #include <bits/stdc++.h>
 using namespace std;
 
