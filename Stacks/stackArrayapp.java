@@ -1,79 +1,105 @@
-public class StackArrayapp {
+package stackArrayapp;
 
-    public static void main(String[] args) {
-       
-        StackArray sa=new StackArray(6);
-        sa.push(7);
-        sa.push(6);
-        sa.push(8);
-        sa.push(9);
-        sa.push(3);
-        sa.push(2);
-        sa.display();
-        sa.push(1);
-        try{
-        int k=sa.peek();
-         System.out.println("peek " +k);
-            System.out.println("popped an item "+sa.pop());
-            System.out.println("popped an item "+sa.pop());
-        }catch (Exception e){
-            
-        }
-        sa.display();
-       
+import java.util.Scanner;
+
+/**
+ *
+ * @author Yasmi Kumarasiri - Stack Implementation using arrays
+ */
+public class stackArrayapp {
+
+  public static void main(String[] args) throws Exception {
+    int ch = 0;
+    Scanner sc = new Scanner(System.in);
+    StackArray sa = new StackArray();
+    System.out.println("Stack operations using array\n");
+
+    while (ch != 5) {
+      System.out.println("\nChose one from the below options...\n");
+      System.out.println("\n1.Push\n2.Pop\n3.Show\n4.Get the peek value\n5.Exit");
+      System.out.println("\n Enter your choice \n");
+      ch = sc.nextInt();
+      switch (ch) {
+        case 1:
+          {
+            sa.push(sc);
+            break;
+          }
+        case 2:
+          {
+            sa.pop();
+            break;
+          }
+        case 3:
+          {
+            sa.display();
+            break;
+          }
+        case 4:
+          {
+            sa.peek();
+            break;
+          }
+        case 5:
+          {
+            System.exit(0);
+            break;
+          }
+        default:
+          {
+            System.out.println("Please Enter a choice(1-5)");
+          }
+      }
     }
-    
+  }
 }
 
 class StackArray {
- private int maxSize; //size of stack array
- private int[] stackData;
- private int top; //top of stack
-//-------------------------------------------------------------------------
- public StackArray(int s) {
-     this.stackData=new int[s];
-     this.maxSize=s;
-     this.top=-1;
- }
- public boolean isEmpty() {
-     return top==-1;
- }
- public boolean isFull() {
-    return top==maxSize-1;
- }
- public void push(int item) {//before inserting check whether the array is full
-     //top++;
-     //stackData[top]=item;
-     if(isFull()){
-         System.out.println("Stack is full");
-         return;
-     }
-     stackData[++top]=item;
-     
- }
- public int pop() throws Exception {
-     /*int temp=stackData[top];
-     top--;
-     return temp;*/
-     if(isEmpty()){
-         throw new Exception("Stack is empty cannot pop");
-     }
-     
-     return stackData[top--];
- }
- public int peek() throws Exception {
-     
-     if(isEmpty()){
-         throw new Exception("Stack is empty cannot give the peek");
-     }
-     
-     return stackData[top];
- }
- public void display() {
-     System.out.println("Start printing stack data");
-     for(int i=top; i>=0; i--){
-         System.out.println(stackData[i]);
-     }
-     System.out.println();
- }
-} //end class StackArray
+
+  int top;
+  int maxsize = 10;
+  int[] stackData = new int[maxsize];
+
+  public boolean isEmpty() {
+    return top == -1;
+  }
+
+  public boolean isFull() {
+    return top == maxsize - 1;
+  }
+
+  StackArray() {
+    top = -1;
+  }
+
+  public void push(Scanner sc) {
+    if (isFull()) {
+      System.out.println("Stack is full");
+      return;
+    }
+    stackData[++top] = sc.nextInt();
+  }
+
+  public int pop() throws Exception {
+    if (isEmpty()) {
+      throw new Exception("Stack is empty cannot pop");
+    }
+
+    return stackData[top--];
+  }
+
+  public int peek() throws Exception {
+    if (isEmpty()) {
+      throw new Exception("Stack is empty cannot give the peek");
+    }
+
+    return stackData[top];
+  }
+
+  void display() {
+    System.out.println("Printing stack elements .....");
+    for (int i = top; i >= 0; i--) {
+      System.out.println(stackData[i]);
+    }
+  }
+}
